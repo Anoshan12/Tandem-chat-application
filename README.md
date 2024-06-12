@@ -9,9 +9,6 @@ This is a simple chat application built with HTML, CSS, and JavaScript. The appl
 - **Video Calls:** Make video calls.
 - **Responsive Design:** The application is designed to mimic a mobile phone interface.
 
-## Screenshot
-
-![Chat Application Screenshot](screenshot.png) 
 
 ## Installation
 
