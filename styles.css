@@ -1,0 +1,137 @@
+body {
+    font-family: 'Candara', sans-serif;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.chat-container {
+    width: 375px; /* Standard mobile phone width */
+    height: 667px; /* Standard mobile phone height */
+    max-width: 100%;
+    background-color: #075E54;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    background: url('2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.chat-header {
+    background-color: #075E54;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.profile-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-buttons button {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header-buttons button img {
+    width: 24px;
+    height: 24px;
+}
+
+.chat-box {
+    flex: 1;
+    padding: 15px;
+    overflow-y: scroll;
+    background-color: #ECE5DD;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #075E54;
+    align-items: center;
+}
+
+.chat-input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    outline: none;
+    background-color: #f0f0f0;
+}
+
+.chat-input button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.chat-input button img {
+    width: 24px;
+    height: 24px;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 80%;
+}
+
+.message.sent {
+    background-color: #DCF8C6;
+    align-self: flex-end;
+}
+
+.message.received {
+    background-color: #fff;
+    align-self: flex-start;
+}
+
+.call-box {
+    background-color: #d3d3d3;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.call-box button {
+    background-color: #ff4c4c;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+}

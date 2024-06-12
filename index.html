@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tandem Chat Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candara&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="profile.jpg.png" alt="Profile Photo" class="profile-photo">
+            <h2>Tandem Chat</h2>
+            <div class="header-buttons">
+                <button id="call-button">
+                    <img src="phone-icon.png.png" alt="Call">
+                </button>
+                <button id="video-call-button">
+                    <img src="video-icon.png.jpg" alt="Video Call">
+                </button>
+            </div>
+        </div>
+        <div class="chat-box" id="chat-box"></div>
+        <div class="chat-input">
+            <input type="file" id="photo-input" accept="image/*" style="display:none;">
+            <button id="photo-button">&#128247;</button>
+            <input type="text" id="message-input" placeholder="Type a message..." autocomplete="off">
+            <button id="send-button">
+                <img src="send-icon.png.png" alt="Send">
+            </button>
+        </div>
+    </div>
+    <audio id="ringtone" src="ringtone.mp3" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
