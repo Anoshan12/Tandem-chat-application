@@ -11,7 +11,7 @@ This is a simple chat application built with HTML, CSS, and JavaScript. The appl
 
 ## Screenshot
 
-![Chat Application Screenshot](screenshot.png)
+![Chat Application Screenshot](screenshot.png) 
 
 ## Installation
 
